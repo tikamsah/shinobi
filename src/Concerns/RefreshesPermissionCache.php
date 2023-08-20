@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Shinobi\Concerns;
+namespace Tikamsah\Shinobi\Concerns;
 
 trait RefreshesPermissionCache
 {
