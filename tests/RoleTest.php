@@ -1,10 +1,10 @@
 <?php
 
-namespace Caffeinated\Shinobi\Tests;
+namespace Tikamsah\Shinobi\Tests;
 
-use Caffeinated\Shinobi\Models\Role;
-use Caffeinated\Shinobi\Tests\TestCase;
-use Caffeinated\Shinobi\Models\Permission;
+use Tikamsah\Shinobi\Models\Role;
+use Tikamsah\Shinobi\Tests\TestCase;
+use Tikamsah\Shinobi\Models\Permission;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class RoleTest extends TestCase
