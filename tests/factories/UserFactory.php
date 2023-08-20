@@ -1,6 +1,6 @@
 <?php
 
-use Caffeinated\Shinobi\Tests\User;
+use Tikamsah\Shinobi\Tests\User;
 
 $factory->define(User::class, function(Faker\Generator $faker) {
     return [
