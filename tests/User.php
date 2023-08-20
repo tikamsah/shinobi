@@ -1,11 +1,11 @@
 <?php
 
-namespace Caffeinated\Shinobi\Tests;
+namespace Tikamsah\Shinobi\Tests;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Auth\Access\Authorizable;
-use Caffeinated\Shinobi\Concerns\HasRolesAndPermissions;
+use Tikamsah\Shinobi\Concerns\HasRolesAndPermissions;
 use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
 use Illuminate\Contracts\Auth\Access\Authorizable as AuthorizableContract;
 
