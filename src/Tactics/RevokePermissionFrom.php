@@ -4,7 +4,7 @@ namespace Tikamsah\Shinobi\Tactics;
 
 use Illuminate\Support\Arr;
 use Illuminate\Database\Eloquent\Model;
-use Caffeinated\Shinobi\Facades\Shinobi;
+use Tikamsah\Shinobi\Facades\Shinobi;
 
 class RevokePermissionFrom
 {
