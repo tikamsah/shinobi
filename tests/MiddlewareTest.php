@@ -1,14 +1,14 @@
 <?php
 
-namespace Caffeinated\Shinobi\Tests;
+namespace Tikamsah\Shinobi\Tests;
 
-use Caffeinated\Shinobi\Tests\User;
-use Caffeinated\Shinobi\Models\Role;
-use Caffeinated\Shinobi\Tests\TestCase;
-use Caffeinated\Shinobi\Middleware\UserHasRole;
-use Caffeinated\Shinobi\Middleware\UserHasAnyRole;
+use Tikamsah\Shinobi\Tests\User;
+use Tikamsah\Shinobi\Models\Role;
+use Tikamsah\Shinobi\Tests\TestCase;
+use Tikamsah\Shinobi\Middleware\UserHasRole;
+use Tikamsah\Shinobi\Middleware\UserHasAnyRole;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Caffeinated\Shinobi\Middleware\UserHasAllRoles;
+use Tikamsah\Shinobi\Middleware\UserHasAllRoles;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 
 class MiddlewareTest extends TestCase
