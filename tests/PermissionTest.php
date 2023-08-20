@@ -1,9 +1,9 @@
 <?php
 
-namespace Caffeinated\Shinobi\Tests;
+namespace Tikamsah\Shinobi\Tests;
 
-use Caffeinated\Shinobi\Tests\User;
-use Caffeinated\Shinobi\Exceptions\PermissionNotFoundException;
+use Tikamsah\Shinobi\Tests\User;
+use Tikamsah\Shinobi\Exceptions\PermissionNotFoundException;
 
 class PermissionTest extends TestCase
 {
