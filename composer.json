@@ -13,21 +13,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Caffeinated\\Shinobi\\": "src/"
+            "Tikamsah\\Shinobi\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Caffeinated\\Shinobi\\Tests\\": "tests/"
+            "Tikamsah\\Shinobi\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Caffeinated\\Shinobi\\ShinobiServiceProvider"
+                "Tikamsah\\Shinobi\\ShinobiServiceProvider"
             ],
             "aliases": {
-                "Shinobi": "Caffeinated\\Shinobi\\Facades\\Shinobi"
+                "Shinobi": "Tikamsah\\Shinobi\\Facades\\Shinobi"
             }
         }
     },
